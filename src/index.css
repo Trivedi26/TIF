@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+::-webkit-scrollbar{
+  width: 2px;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("./fonts/source-sans-pro.regular.ttf");
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("./fonts/open-sans.regular.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/poppins.regular.ttf");
+}
+
