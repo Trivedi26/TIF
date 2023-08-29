@@ -43,7 +43,7 @@ export const Footer = () => {
 </Grid>
  <Grid item xs={12} sm={3} md={3}>
       <div className={classes.links}>
-      <div className={classes.cont1}>© 2022 Food Truck Example</div>
+      <div className={classes.cont2}>© 2022 Food Truck Example</div>
         <div className={classes.icons}>
           <InstagramIcon sx={{fontSize:'12px'}}/>
           <TwitterIcon sx={{fontSize:'12px'}}/>

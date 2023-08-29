@@ -18,7 +18,7 @@ alignItems:'center'
 },
     aboutUs:{
     display: "flex",
-    height:'14%',
+    height:'10%',
     alignItems: "flex-start",
     color: "#0E2368",
     fontFamily: "Poppins",
@@ -28,8 +28,8 @@ alignItems:'center'
       },
 
  content:{
-width: "100%",
-height: "40%",
+width: "90%",
+height: "20%",
 color: "var(--body, #444957)",
 fontFamily: "Open Sans",
 fontSize: "11px",
@@ -39,19 +39,18 @@ lineHeight: "180%",
       },
 
       button:{
-width:'100%',
-height:'30%',
+width:'96px',
+height:'25px',
       },
 
       buttonA:{
-   height:"40%",
-      width:"15%",
+   height:"100%",
+      width:"100%",
       borderRadius:20,
       border: 2,
       borderColor:'#000',
       backgroundColor:'#c7344e',
       color:'#fff',
-      marginTop:"3%",
       fontSize:'11px',
       fontWeight:600
       },

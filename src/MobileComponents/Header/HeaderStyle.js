@@ -9,7 +9,7 @@ marginBottom:'40px'
 },
 subContainer1:{
    width:'100%',
-   height:'102px',
+   height:'220px',
    paddingTop:'3%',
    display:'flex',
    flexDirection:'column',
@@ -50,7 +50,6 @@ button:{
     marginRight:'3%'
 },
 head:{
-    width:'80%',
     color: "#0E2368",
 fontFamily: "Source Sans Pro",
 fontSize: "38px",
@@ -58,7 +57,7 @@ fontStyle: "normal",
 fontWeight: 700,
 },
 content:{
-    width:'80%',
+    width:'60%',
     color: "#444957",
 fontFamily: "Open Sans",
 fontSize: "11px",
@@ -69,7 +68,7 @@ marginTop:'2%'
 explore:{
     display: "flex",
     width:'120px',
-    height: "40px",
+    height: "30px",
     padding: "12px 30px",
     justifyContent: "center",
 alignItems: "center",

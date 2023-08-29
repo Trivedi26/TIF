@@ -68,6 +68,14 @@ height:'58px'
     fontWeight: 400,
     marginBottom:'6%'
   },
+  cont2: {
+    color: "#646874",
+    fontFamily: "Source Sans Pro",
+    fontSize: "8.762px",
+    fontStyle: "normal",
+    fontWeight: 400,
+    marginBottom:'6%'
+  },
   icons: {
     width:'30%',
     marginBottom: "7%",
