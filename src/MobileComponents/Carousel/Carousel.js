@@ -50,9 +50,7 @@ else{
     </div>
      {CData.map((item,index)=>(
     <div index={index} className={item.setId===shown?classes.mainCon:classes.noDisplay}>
-    <Grid container spacing={{ xs:2,sm:6, md: 10 }} columns={{ xs: 4, sm: 8, md: 12 }}>
        { item.items.map((data,id)=>(
-          <Grid item xs={12} sm={4} md={4} index={id}>
             <div className={classes.card}>
             <div className={classes.imgContainer}>
               <img src={data.image} alt="img" className={classes.Cimg}/>
@@ -67,9 +65,7 @@ else{
                 Read more
               </div>
             </div>
-          </Grid>
           ))}
-      </Grid>
       </div>
       ))}
 

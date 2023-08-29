@@ -11,13 +11,9 @@ export const Footer = () => {
 
   return (
     <div className={classes.footerParent}>
-       <Grid container spacing={{ xs:2,sm:2, md: 2 }} columns={{ xs: 4, sm: 8, md: 12 }}>
-       <Grid item xs={12} sm={3} md={3}>
       <div className={classes.footerImage}>
         <img src={FoodTruck} alt="Food Truck" className={classes.image}/>
       </div>
-</Grid>
- <Grid item xs={12} sm={3} md={3}>
       <div className={classes.contactUs}>
         <div className={classes.heading}>Contact Us</div>
 
@@ -31,8 +27,6 @@ export const Footer = () => {
         (904) 443-0343
         </div>
       </div>
-</Grid>
- <Grid item xs={12} sm={3} md={3}>
       <div className={classes.more}>
         <div className={classes.heading}>More</div>
           <div className={classes.cont1}>About Us</div>
@@ -40,8 +34,6 @@ export const Footer = () => {
           <div className={classes.cont1}>Career</div>
           <div className={classes.cont1}>Contact Us</div>
       </div>
-</Grid>
- <Grid item xs={12} sm={3} md={3}>
       <div className={classes.links}>
       <div className={classes.cont2}>© 2022 Food Truck Example</div>
         <div className={classes.icons}>
@@ -50,8 +42,6 @@ export const Footer = () => {
           <FacebookIcon sx={{fontSize:'12px'}}/>
         </div>
       </div>
-      </Grid>
-      </Grid>
     </div>
   );
 };
