@@ -37,18 +37,19 @@ height:'58px'
   contactUs: {
     display: "flex",
     flexDirection: "column",
-    width: "100%",
+    width: "80%",
     flexShrink: 0,
-    paddingRight: "10%",
-    height:'30%'
+    height:'30%',
+    marginRight:'20%'
   },
 
   more: {
     display: "flex",
     flexDirection: "column",
-    width: "100%",
+    width: "80%",
     height: "30%",
     flexShrink: 0,
+    marginRight:'20%'
   },
   links: {
     display: "flex",

@@ -26,7 +26,8 @@ mainCon:{
     justifyContent:'center'
 },
 card:{
-    width: "85%",
+    width: "70%",
+    alignSelf:'center',
 height: "484px",
 flexShrink: 0,
 borderRadius: "20.937px",

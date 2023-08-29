@@ -37,11 +37,11 @@ img:{
     height:'98%',
 },
 button:{
-    padding:'0.6vw',
+    padding:"4px 33px",
     border:'1px solid #fff',
     borderRadius:21,
     color:'#fff',
-    fontSize:'11px',
+    fontSize:'10px',
     fontFamily: "Source Sans Pro",
     fontWeight:600,
     letterSpacing:0.48,
