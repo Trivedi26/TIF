@@ -1,18 +1,16 @@
 import React from "react";
-import { AboutUs } from "./Components/AboutUs/AboutUs";
-import { Header } from "./Components/Header/Header";
-import { Footer } from "./Components/Footer/Footer";
-import { Carousel } from "./Components/Carousel/Carousel";
+import DesktopScreen from "./Screens/DesktopScreen";
+import MobileScreen from "./Screens/MobileScreen";
 
 function App() {
-  return (
-  <div>
-    <Header />
-    <AboutUs/>
-    <Carousel/>
-    <Footer/>
-  </div>
-  )
+  const [width, setWidth] = React.useState(window.innerWidth);
+  const breakpoint = 620;
+  React.useEffect(() => {
+    const handleWindowResize = () => setWidth(window.innerWidth);
+    window.addEventListener("resize", handleWindowResize);
+    return () => window.removeEventListener("resize", handleWindowResize);
+  }, []);
+  return width < breakpoint ? <MobileScreen/> : <DesktopScreen />;
 }
 
 export default App;
