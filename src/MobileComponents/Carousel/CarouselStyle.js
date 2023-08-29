@@ -27,6 +27,7 @@ mainCon:{
 },
 card:{
     width: "70%",
+    marginBottom:'20px',
     alignSelf:'center',
 height: "484px",
 flexShrink: 0,

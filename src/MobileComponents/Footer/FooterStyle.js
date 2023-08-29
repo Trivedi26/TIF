@@ -39,17 +39,17 @@ height:'58px'
     flexDirection: "column",
     width: "80%",
     flexShrink: 0,
-    height:'30%',
-    marginRight:'20%'
+    height:'20%',
+    marginLeft:'20%',
   },
 
   more: {
     display: "flex",
     flexDirection: "column",
     width: "80%",
-    height: "30%",
+    height: "20%",
     flexShrink: 0,
-    marginRight:'20%'
+    marginLeft:'20%'
   },
   links: {
     display: "flex",
@@ -67,7 +67,7 @@ height:'58px'
     fontSize: "8.762px",
     fontStyle: "normal",
     fontWeight: 400,
-    marginBottom:'6%'
+    marginBottom:'2%'
   },
   cont2: {
     color: "#646874",
@@ -75,10 +75,10 @@ height:'58px'
     fontSize: "8.762px",
     fontStyle: "normal",
     fontWeight: 400,
-    marginBottom:'6%'
+    marginBottom:'4%'
   },
   icons: {
-    width:'30%',
+    width:'20%',
     marginBottom: "7%",
     color: "#0E2368",
   display:'flex',
